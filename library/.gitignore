@@ -1,0 +1,36 @@
+# Remember globally useful things should be in your home directory .gitignore file, not here. This is for project-specific items #
+ 
+# git stuff #
+*.orig
+
+# Build output #
+bin
+dist
+gen
+out
+target
+tmp
+
+# IntelliJ IDEA #
+.idea/libraries
+.idea/dictionaries
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/findbugs-idea.xml
+.idea/misc.xml
+.idea/uiDesigner.xml
+.idea/vcs.xml
+.idea/workspace.xml
+atlassian-ide-plugin.xml
+
+# Android #
+/*/**/local.properties
+
+# Linux #
+*~
+
+# Mac OS X #
+*.DS_Store
+
+# apk libs. Maven android libraries
+gen-external-apklibs
