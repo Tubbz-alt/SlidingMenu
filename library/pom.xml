@@ -30,8 +30,7 @@
             <groupId>com.google.android.maps</groupId>
             <artifactId>maps</artifactId>
             <version>10_r2</version>
-            <scope>compile</scope>
-            <optional>true</optional>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.google.android</groupId>
