@@ -34,3 +34,4 @@ atlassian-ide-plugin.xml
 
 # apk libs. Maven android libraries
 gen-external-apklibs
+/project.properties
