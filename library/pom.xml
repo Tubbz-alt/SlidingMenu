@@ -39,9 +39,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.actionbarsherlock</groupId>
+            <groupId>com.shazam</groupId>
             <artifactId>actionbarsherlock</artifactId>
-            <version>4.2.0</version>
+            <version>4.2.1-SNAPSHOT</version>
             <type>apklib</type>
         </dependency>
         <dependency>
