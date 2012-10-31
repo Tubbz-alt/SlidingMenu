@@ -33,6 +33,12 @@ public class SlidingActivity extends SherlockActivity implements SlidingActivity
 			return v;
 		return mHelper.findViewById(id);
 	}
+	
+	@Override
+	public void onSaveInstanceState(Bundle outState) {
+		super.onSaveInstanceState(outState);
+		mHelper.onSaveInstanceState(outState);
+	}
 
 	@Override
 	public void setContentView(int id) {
