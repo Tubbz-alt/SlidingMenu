@@ -36,7 +36,7 @@ public abstract class SlidingMapActivity extends SherlockMapActivity {
 	}
 
 	@Override
-	public void onSaveInstanceState(Bundle outState) {
+	protected void onSaveInstanceState(Bundle outState) {
 		super.onSaveInstanceState(outState);
 		mHelper.onSaveInstanceState(outState);
 	}
